@@ -1,0 +1,1 @@
+!python rotate_train.py --img-size 640 --batch-size 16 --epochs 100 --cfg /content/RotateObjectDetection/rotate-yolov5/models/rotate_yolov5s_ucas.yaml --hyp /content/RotateObjectDetection/rotate-yolov5/data/hyp.ucas.yaml --weights rotate-yolov5s-ucas.pt --data /content/RotateObjectDetection/rotate-yolov5/data/rotate_ucas.yaml --noautoanchor --rotate --name 'trial_01' --cache
